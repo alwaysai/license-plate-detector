@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "python app.py"
+  },
+  "models": {
+    "alwaysai/vehicle_license_mobilenet_ssd": 1
+  }
+}
