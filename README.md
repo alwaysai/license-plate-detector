@@ -1,22 +1,25 @@
 # License Plate Tracker App
 This app uses object detection and employs a correlation tracker to monitor a frame for license plates and vehicles.
+![Image of cars](/Downloads/hero_cars.png)
 
 ## Requirements
-To run this app, you will need an alwaysAI account. Please register at https://alwaysai.co/auth?register=true
+- [alwaysAI account](https://alwaysai.co/auth?register=true)
+- [alwaysAI CLI tools](https://dashboard.alwaysai.co/docs/getting_started/development_computer_setup.html)
 
-## Setup
-Easy start up guides can be found following registration. Please see the docs page for more information: https://alwaysai.co/docs/getting_started/introduction.html
+## Running
+See [this page](https://alwaysai.co/docs/getting_started/working_with_projects.html) for documentation on setting up projects in the dashboard. See [this page](https://alwaysai.co/blog/building-and-deploying-apps-on-alwaysai) for details on building and running applications.
 
-### Models
-The object detection model used was the 'alwaysai/vehicle_license_mobilenet_ssd' model, and more details can be found at https://alwaysai.co/model-catalog?model=alwaysai/fcn_alexnet_pascal_voc
-
-
-You can alter the code to use models: https://alwaysai.co/docs/application_development/changing_the_model.html
-
+## Output
+You should see output similar to the image shown here
+![Image of cars](/Downloads/hero_cars.png)
 
 ## Troubleshooting
-If you are having trouble connecting to your edge device, use the CLI configure command to reset the device. Please see the following page for more details: https://alwaysai.co/docs/reference/cli_commands.html
+- If you are having trouble connecting to your edge device, use the CLI configure command to reset the device. Please see [this page](https://alwaysai.co/docs/reference/cli_commands.html) for more details.
+- Make sure you are logged in to the CLI. Verify with ```aai user show``` and log in with ```aai user login``` if not. 
 
-You can also post questions and comments on our Discord Community at: https://discord.gg/R2uM36U
+## Support
+Docs: https://dashboard.alwaysai.co/docs/getting_started/introduction.html
+Community Discord: https://discord.gg/rjDdRPT
+Email: support@alwaysai.co
 
 
