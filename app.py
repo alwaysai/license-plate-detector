@@ -49,8 +49,6 @@ def main():
                     # if using new detections, update 'predictions'
                     if frame_idx % detect_period == 0:
                         results = obj_detect.detect_objects(frame, confidence_level=.5)
-                        frame = edgeiq.markup_image(
-                                frame, results.predictions, colors=obj_detect.colors)
 
                         # Generate text to display on streamer
                         text = ["Model: {}".format(obj_detect.model_id)]
@@ -62,6 +60,7 @@ def main():
                         if tracker.count:
                             tracker.stop_all()
 
+                        # Set predictions to the new predictions
                         predictions = results.predictions
 
                         if not predictions:
