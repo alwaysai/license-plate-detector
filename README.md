@@ -1,6 +1,7 @@
 # License Plate Tracker App
 This app uses object detection and employs a correlation tracker to monitor a frame for license plates and vehicles.
-![Image of cars](/Downloads/hero_cars.png)
+
+![Image of cars](/Users/lilamullany/Downloads/hero_cars.png)
 
 ## Requirements
 - [alwaysAI account](https://alwaysai.co/auth?register=true)
@@ -11,7 +12,8 @@ See [this page](https://alwaysai.co/docs/getting_started/working_with_projects.h
 
 ## Output
 You should see output similar to the image shown here
-![Image of cars](/Downloads/hero_cars.png)
+
+![Image of cars](/Users/lilamullany/Downloads/hero_cars.png)
 
 ## Troubleshooting
 - If you are having trouble connecting to your edge device, use the CLI configure command to reset the device. Please see [this page](https://alwaysai.co/docs/reference/cli_commands.html) for more details.
