@@ -1,5 +1,5 @@
 # License Plate Tracker App
-This app uses object detection and employs a correlation tracker to monitor a frame for license plates and vehicles.
+This app uses object detection and employs a correlation tracker to monitor a frame for license plates and vehicles. Please note that the model used in this app does not detect the content or read the characters from a license plate. Pair this app with an OCR library to do so.
 
 ![Image of cars](hero_cars.png)
 
