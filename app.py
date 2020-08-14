@@ -89,8 +89,8 @@ def main():
 
                     fps.update()
 
-                if streamer.check_exit():
-                    break
+                    if streamer.check_exit():
+                        break
 
     finally:
         fps.stop()
