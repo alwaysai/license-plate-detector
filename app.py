@@ -32,17 +32,17 @@ def main():
 
     try:
         video_paths = edgeiq.list_files(base_path="./video/", valid_exts=".mp4")
+        streamer = edgeiq.Streamer().setup()
 
         for video_path in video_paths:
-            with edgeiq.FileVideoStream(video_path) \
-            as video_stream, edgeiq.Streamer() as streamer:
+            with edgeiq.FileVideoStream(video_path) as video_stream:
 
                 # Allow Webcam to warm up
                 time.sleep(2.0)
                 fps.start()
 
                 # loop detection
-                while True:
+                while video_stream.more():
                     frame = video_stream.read()
                     predictions = []
 
@@ -89,11 +89,12 @@ def main():
 
                     fps.update()
 
-                    if streamer.check_exit():
-                        break
+                if streamer.check_exit():
+                    break
 
     finally:
         fps.stop()
+        streamer.close()
         print("elapsed time: {:.2f}".format(fps.get_elapsed_seconds()))
         print("approx. FPS: {:.2f}".format(fps.compute_fps()))
 
