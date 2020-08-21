@@ -1,5 +1,6 @@
 import time
 import edgeiq
+
 """
 Use object detection to detect objects in the frame in realtime. The
 types of objects detected can be changed by selecting different models.
@@ -82,7 +83,9 @@ def main():
                     # either way, use 'predictions' to mark up the image and update text
                     frame = edgeiq.markup_image(
                             frame, predictions, show_labels=True,
-                            show_confidences=False, colors=obj_detect.colors)
+                            show_confidences=False, colors=obj_detect.colors, 
+                            line_thickness=6, font_size=2, font_thickness=6)
+
 
                     streamer.send_data(frame, text)
                     frame_idx += 1
