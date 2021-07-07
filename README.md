@@ -7,10 +7,10 @@ If you'd like to build your own license plate tracker from scratch, download the
 
 ## Requirements
 - [alwaysAI account](https://alwaysai.co/auth?register=true)
-- [alwaysAI CLI tools](https://dashboard.alwaysai.co/docs/getting_started/development_computer_setup.html)
+- [alwaysAI Installed](https://alwaysai.co/docs/get_started/development_computer_setup.html)
 
 ## Running
-See [this page](https://alwaysai.co/docs/getting_started/working_with_projects.html) for documentation on setting up projects in the dashboard. See [this page](https://alwaysai.co/blog/building-and-deploying-apps-on-alwaysai) for details on building and running applications.
+See [this page](https://alwaysai.co/docs/alwaysai_workflow/working_with_projects.html) for documentation on setting up projects in the dashboard. See [this page](https://alwaysai.co/blog/building-and-deploying-apps-on-alwaysai) for details on building and running applications.
 
 ## Output
 You should see output similar to the image shown here
@@ -18,11 +18,11 @@ You should see output similar to the image shown here
 ![Image of cars](hero_cars.png)
 
 ## Troubleshooting
-- If you are having trouble connecting to your edge device, use the CLI configure command to reset the device. Please see [this page](https://alwaysai.co/docs/reference/cli_commands.html) for more details.
+- If you are having trouble connecting to your edge device, see our docs on [working with edge devices](https://alwaysai.co/docs/alwaysai_workflow/working_with_edge_devices.html).
 - Make sure you are logged in to the CLI. Verify with ```aai user show``` and log in with ```aai user login``` if not. 
 
 ## Support
-Docs: https://dashboard.alwaysai.co/docs/getting_started/introduction.html
+Docs: https://alwaysai.co/docs/
 Community Discord: https://discord.gg/rjDdRPT
 Email: support@alwaysai.co
 
