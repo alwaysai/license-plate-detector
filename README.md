@@ -1,5 +1,5 @@
 # License Plate Tracker App
-This app uses object detection and employs a correlation tracker to monitor a frame for license plates and vehicles. Please note that the model used in this app does not detect the content or read the characters from a license plate. Pair this app with an OCR library to do so.
+This app uses object detection and employs a centroid tracker to monitor a frame for license plates and vehicles. Please note that the model used in this app does not detect the content or read the characters from a license plate. Pair this app with an OCR library to do so.
 
 If you'd like to build your own license plate tracker from scratch, download the ready made [dataset](https://www.alwaysai.co/docs/_static/beta/dataset_sample_584.zip) to begin training your own license plate detection model and check out our model training [quickstart guide](https://alwaysai.co/docs/model_training/quickstart.html). Then test out your model with your new app!
 
