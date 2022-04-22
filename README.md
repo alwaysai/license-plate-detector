@@ -23,7 +23,8 @@ You should see output similar to the image shown here
 
 ## Support
 Docs: https://alwaysai.co/docs/
-Community Discord: https://discord.gg/rjDdRPT
+Community Discord: https://discord.gg/alwaysai
 Email: support@alwaysai.co
+
 
 
