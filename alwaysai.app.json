@@ -3,6 +3,6 @@
     "start": "python app.py"
   },
   "models": {
-    "alwaysai/vehicle_license_mobilenet_ssd": 3
+    "alwaysai/vehicle_license_mobilenet_ssd": 4
   }
 }
